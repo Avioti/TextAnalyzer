@@ -29,6 +29,8 @@ public class TextAnalyzer {
 
         System.out.println("First Word: " + sentence.substring(0,sentence.lastIndexOf(sentence_split[1])));
         System.out.println("Last word: " + sentence.substring(sentence.lastIndexOf(" " ) + 1));
+        System.out.println("Middle section: " + sentence.substring(sentence.indexOf(" "), sentence.lastIndexOf(" ")));
+
 
 
 
